@@ -10,7 +10,7 @@ console.log(str1.charAt(5));
 console.log(str1.charCodeAt(5)); //returns the unicode value of a character of the specified index (0 - 65535)
 console.log(str1.indexOf("Bhakta"));
 console.log(str1.lastIndexOf("Bhakta"));
-console.log(str1.slice(0, 14));
+console.log("Slice: " + str1.slice(0, 14));
 console.log(str1.slice(0));
 console.log(str1.substring(0, -7)); //same as slice but it will treat -ve index as 0
 console.log(str1.replace("Bhakta", "bhakta"));

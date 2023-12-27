@@ -25,5 +25,6 @@ var arr2 = [10, 11, 12, 13, 14];
 console.log(arr.concat(arr2)); //merging two arrays
 arr2.splice(2, 1); // first param --> the position, second param --> the number of elements we want to delete
 console.log("New array: ", arr2);
-arr.splice(4, 0, 98, 69, 45);
-console.log(arr);
+var arr3 = [10, 20, 30, 40, 50, 60, 70];
+arr3.splice(4, 0, 98, 69, 45);
+console.log(arr3);
