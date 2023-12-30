@@ -9,3 +9,4 @@ console.log(Gender.Female);
 console.log(Gender["Female"]); //same as Gender.Female
 console.log(Gender[0]);
 console.log(Gender[1]);
+//# sourceMappingURL=enum.js.map

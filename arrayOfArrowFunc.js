@@ -1,10 +1,8 @@
-var myArr2 = [];
-var _loop_1 = function (i) {
-    myArr2.push(function () { return i; }); //(): number => return 0
-};
-for (var i = 0; i < 10; i++) {
-    _loop_1(i);
+let myArr2 = [];
+for (let i = 0; i < 10; i++) {
+    myArr2.push(() => i); //(): number => return 0
 }
-for (var i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     console.log(myArr2[i]());
 }
+//# sourceMappingURL=arrayOfArrowFunc.js.map

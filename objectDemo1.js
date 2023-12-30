@@ -1,7 +1,8 @@
-var myObj = {
+let myObj = {
     name: "Redmi 12 5G",
     manufacturer: "Xiaomi",
     price: 12599,
     battery: 6000
 };
 console.log(myObj);
+//# sourceMappingURL=objectDemo1.js.map
