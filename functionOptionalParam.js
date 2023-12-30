@@ -8,3 +8,4 @@ function multiply(n1, n2, n3) {
 }
 console.log(multiply(10, 20, 30));
 console.log(multiply(10, 20));
+//# sourceMappingURL=functionOptionalParam.js.map

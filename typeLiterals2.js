@@ -8,3 +8,4 @@ function combine(param1, param2, type) {
     }
 }
 console.log(combine(10, 85, "as-number"));
+//# sourceMappingURL=typeLiterals2.js.map

@@ -1,4 +1,4 @@
-var str1 = "Arijit Bhakta Bhakta";
+let str1 = "Arijit Bhakta Bhakta";
 console.log(str1);
 console.log(str1.length);
 console.log(str1.toUpperCase());
@@ -20,7 +20,8 @@ console.log(str1.includes("rijit"));
 console.log(str1.startsWith("Arijit"));
 console.log(str1.endsWith("Bhakta"));
 console.log(str1.startsWith("Arijit", 5)); //searching will starts from index 5
-var str2 = "                 TypeScript      ";
+let str2 = "                 TypeScript      ";
 console.log(str2.trim());
 // console.log(str2.trimStart());
 // console.log(str2.trimEnd());
+//# sourceMappingURL=stringDemo.js.map

@@ -8,3 +8,4 @@ var Role;
 console.log(Role);
 console.log(Role.END_USER);
 console.log(Role[1]);
+//# sourceMappingURL=enumDemo.js.map
